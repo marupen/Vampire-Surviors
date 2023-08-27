@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7054e933c81e314b8a6af69bb126bf5, type: 3}
+  m_Name: Pumkinghead EnemyData
+  m_EditorClassIdentifier: 
+  Name: Pumkinghead Pitchfork
+  animatedPrefab: {fileID: 8655339648997798290, guid: 2681c69cdce20dc479173ef79f07658b, type: 3}
+  stats:
+    hp: 200
+    damage: 1
+    experienceReward: 400
+    moveSpeed: 1

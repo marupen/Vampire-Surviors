@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb9c813cd0f75439c043d628200f77, type: 3}
+  m_Name: Whip
+  m_EditorClassIdentifier: 
+  Name: Whip
+  stats:
+    damage: 100
+    timeToAttack: 3
+    numberOfAttacks: 1
+    numberOfHits: 0
+    projectileSpeed: 0
+    stun: 1.62
+  weaponBasePrefab: {fileID: 4813625472771680512, guid: 22181c37c830d8c45b39dc4962253c43, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 8c94f9fbe03f76548a3bfa8e8e43ec17, type: 2}
+  - {fileID: 11400000, guid: 0c856dd7b2517094497049d944742b00, type: 2}
+  - {fileID: 11400000, guid: 15e5806953bea0448a38732fcdf31390, type: 2}

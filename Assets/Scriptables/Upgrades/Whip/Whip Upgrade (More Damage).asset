@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4294a45923588243ac6a8ed7a638f33, type: 3}
+  m_Name: Whip Upgrade (More Damage)
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Nane: More Damage
+  icon: {fileID: 21300000, guid: a6a1dcf1022bcb64aa4f7371232498ab, type: 3}
+  weaponData: {fileID: 11400000, guid: d3785a84a7f504346806bd44386f59f0, type: 2}
+  weaponUpgradeStats:
+    damage: 100
+    timeToAttack: 0

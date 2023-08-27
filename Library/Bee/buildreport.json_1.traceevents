@@ -1,0 +1,598 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1693172020771127, "dur": 3338593, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693172020771493, "dur": 7749, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693172020779255, "dur": 64027, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693172020843284, "dur": 1233477, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693172022076764, "dur": 2022945, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693172024099711, "dur": 10007, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693172024110329, "dur": 26, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1693172021751639, "dur": 290039, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693172021753038, "dur": 78855, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693172022009293, "dur": 7603, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693172022016901, "dur": 24759, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693172022018186, "dur": 22644, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693172022052867, "dur": 2607, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693172022051202, "dur": 4318, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693172024110449, "dur": 239, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1693172022157884, "dur":1294, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172022159188, "dur":154, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1693172022159408, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1693172022159440, "dur":348, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1693172022159836, "dur":1760, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172022161596, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024076870, "dur":126, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024076996, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024077014, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024077020, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024077032, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024077035, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024077043, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024077046, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024077053, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024077069, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024077095, "dur":2482, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1693172022161031, "dur":576, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022161610, "dur":2801, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022164428, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693172022164438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022165854, "dur":398, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693172022166261, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693172022166301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022167284, "dur":6576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693172022173863, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1693172022173915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022173983, "dur":4386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1693172022178398, "dur":40899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1693172022219305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022219352, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1693172022221142, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1693172022221220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022221253, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1693172022223334, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693172022223386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022223398, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693172022225252, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1693172022225306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022226019, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1693172022227814, "dur":21408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1693172022249228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022249242, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1693172022251899, "dur":277311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172022529218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022529834, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172022531302, "dur":107313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors.exe" }}
+,{ "pid":12345, "tid":1, "ts":1693172022638623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022638634, "dur":3308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors.exe" }}
+,{ "pid":12345, "tid":1, "ts":1693172022641969, "dur":99581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172022741556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022741568, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172022745125, "dur":87377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172022832508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022832520, "dur":4698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172022837249, "dur":53651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172022890907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172022890920, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172022892381, "dur":216205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023108592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023108604, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023109768, "dur":127685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023237462, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023237493, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023239515, "dur":65694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023305217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023305229, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023306575, "dur":75762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023382344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023382357, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023385655, "dur":59346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023445008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023445020, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023446458, "dur":62378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023508842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023508854, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023511364, "dur":2383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023513753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023513765, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023516867, "dur":67093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023583966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023583979, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023585573, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023585831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023585843, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023587536, "dur":114178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023701723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023701739, "dur":9808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023711566, "dur":1072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023712647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023712658, "dur":11436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023724116, "dur":119882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023844005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172023844017, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172023846829, "dur":228800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172024075634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693172024075642, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693172024076833, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1693172024076836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172022161091, "dur":523, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172022161614, "dur":2805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172022164429, "dur":57489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1693172022221924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172022221953, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1693172022222954, "dur":32052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1693172022255069, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172022255091, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1693172022256823, "dur":702298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172022959128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172022959138, "dur":38197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172022997359, "dur":97765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023095131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023095149, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023096484, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023096671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023096682, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023097635, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023097818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023097828, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023099027, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023099455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023100907, "dur":4895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023105831, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023106066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023106078, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023107430, "dur":91105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023198544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023198558, "dur":5047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023204098, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023204359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023204371, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023205916, "dur":72223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023278145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023278158, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023279721, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023280002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023280013, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023281211, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023281590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023281600, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023283679, "dur":90633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023374320, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023374342, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023375875, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023376078, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023376098, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023377352, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023377737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023377782, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023379376, "dur":65627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023445008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023445020, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023446455, "dur":76601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023523094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023523107, "dur":6637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023529768, "dur":57367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023587148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023587166, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023589038, "dur":73900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023662946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023662958, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023664066, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023664261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023664272, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023665281, "dur":537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023665824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023665835, "dur":4080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023669937, "dur":1135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023671079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023671091, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023672887, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023673142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023673153, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023674249, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023674519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023674531, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023675782, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023676317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023676329, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023678039, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023678214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023678225, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023679257, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023679423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023679432, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023680636, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023680812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023680823, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023681879, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023682026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023682041, "dur":3481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023685557, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023685796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023685811, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023687140, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023687349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023687360, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023688456, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023688611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023688632, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023689810, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023689962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023689974, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023691645, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023691805, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023691863, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023693163, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023693307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023693318, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023694336, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023694486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023694496, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023695610, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023695764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023695775, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023697112, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023697264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023697276, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023698306, "dur":935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023699247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023699265, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023702078, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023702214, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023702236, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023704892, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023705055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023705066, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023708716, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023709247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023709258, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023711484, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023711633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023711647, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023712758, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023712895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023712906, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023714373, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023714524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023714535, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023715677, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023716409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023716422, "dur":4589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023721044, "dur":150918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023871968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023872087, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023873580, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023873762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023873774, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023874778, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023875027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023875038, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023876570, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023876723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023876733, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023877785, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023877980, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023877992, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023878999, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023879173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023879183, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023880735, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023880912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023880950, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023882208, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023882835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023882848, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023884830, "dur":4605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023889442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023889454, "dur":3858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023893334, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023893517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023893527, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023894571, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023895074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023895084, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023896549, "dur":1260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023897819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023897834, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023901152, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023901352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023901365, "dur":10169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023911562, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023912312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023912325, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023913985, "dur":5497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023919494, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023919512, "dur":15853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023935387, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023935779, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023935815, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023937344, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023937652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172023937666, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023938987, "dur":60110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172023999104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693172024004677, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693172024005769, "dur":71083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022161280, "dur":352, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022161632, "dur":2785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022164428, "dur":79261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1693172022243695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022244299, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1693172022245468, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1693172022245526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022245558, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1693172022247600, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1693172022247654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022247665, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1693172022249725, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1693172022249769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022249779, "dur":4972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1693172022254795, "dur":286197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022540999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022541062, "dur":11569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022552665, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1693172022552749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022553071, "dur":22846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1693172022575940, "dur":61826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022637774, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022637789, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022638868, "dur":103756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022742633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022742648, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022746065, "dur":66048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022812120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022812132, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022814185, "dur":63052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022877244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022877258, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022878633, "dur":66186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022944826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172022944839, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172022946519, "dur":199921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023146446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023146489, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023148029, "dur":89187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023237225, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023237261, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023239476, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023239724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023239735, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023240914, "dur":53051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023293973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023293987, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023295858, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023296562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023296574, "dur":2829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023299448, "dur":82889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023382344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023382357, "dur":9861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023392240, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023392655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023392666, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023393749, "dur":51561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023445315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023445386, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023447725, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023447921, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023447958, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023449209, "dur":65266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023514481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023514494, "dur":7937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023522453, "dur":76855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023599315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023599333, "dur":9753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023609108, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023609297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023609308, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023611498, "dur":112914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023724416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023724428, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023725785, "dur":165942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023891767, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023891795, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023893659, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023894071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023894086, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023896624, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023896757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023896769, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023897981, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023898329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023898340, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023900091, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023900457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023900469, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023901966, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023902466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023902477, "dur":5853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023908366, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023908559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023908571, "dur":3610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023912205, "dur":3352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023915563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023915574, "dur":6297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023921915, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023922111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023922123, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023923297, "dur":1578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023924882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023924894, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023926961, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023927286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023927301, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023928601, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023929019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023929030, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023930307, "dur":1164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023931478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023931490, "dur":2969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023934527, "dur":10530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023945063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023945074, "dur":14061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693172023959181, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693172023959300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023959313, "dur":6035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693172023965374, "dur":1681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1693172023967066, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023967083, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1693172023968906, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1693172023968967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023968977, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1693172023970149, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1693172023970175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023970233, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1693172023971608, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693172023971649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023971657, "dur":4799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693172023976477, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1693172023976627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693172023976635, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1693172023978434, "dur":98435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022161167, "dur":455, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022161623, "dur":2795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022164429, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693172022164494, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022171842, "dur":6667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693172022178534, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1693172022178586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022178602, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1693172022182253, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693172022182305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022184137, "dur":4649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693172022188820, "dur":49326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1693172022238158, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022238180, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1693172022241128, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1693172022241176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022241205, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1693172022242882, "dur":19385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1693172022262315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022262326, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1693172022263406, "dur":307703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1693172022571116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022571126, "dur":3901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1693172022575063, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022575444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022575762, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022576829, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022577009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022577072, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022578752, "dur":130813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022709576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022709595, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022712478, "dur":61462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022774010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022774026, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022776315, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022776621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022776632, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022778083, "dur":66401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022844492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022844504, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022847854, "dur":60486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022908346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172022908381, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172022911403, "dur":136825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023048236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023048248, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023051553, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023051888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023051901, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023053666, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023053964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023053977, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023055751, "dur":2185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023057942, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023057957, "dur":2827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023060811, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023061358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023061372, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023063062, "dur":75553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023138622, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023138635, "dur":3821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023142483, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023142675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023142686, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023144713, "dur":93293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023238015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023238048, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023241238, "dur":100931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023342177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023342189, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023344553, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023344723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023344734, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023346257, "dur":76210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023422474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023422486, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023423592, "dur":164474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023588072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023588084, "dur":5922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023594029, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023594350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023594361, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023595550, "dur":311730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023907287, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023907338, "dur":24583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023931951, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023932478, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023932500, "dur":3863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023936389, "dur":632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023937061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023937076, "dur":5156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693172023942256, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1693172023942455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023942751, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1693172023943904, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1693172023943927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023943952, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1693172023945194, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693172023945218, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023945225, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693172023946639, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693172023946700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023946712, "dur":7227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693172023953962, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693172023953988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023954008, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693172023955137, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1693172023955175, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023955207, "dur":5499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1693172023960738, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693172023960765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023960775, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693172023962059, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693172023962081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023962091, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693172023963912, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693172023963949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023963959, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693172023965367, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1693172023965498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023965508, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1693172023967447, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693172023967479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023967494, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693172023969150, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1693172023969171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023969178, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1693172023970149, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1693172023970175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023970233, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1693172023971597, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1693172023971631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023971656, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1693172023973232, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693172023973276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023973293, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693172023976222, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1693172023976247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693172023976257, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/work/Unity/Projects/Vampire Survivors_v_1.0/Vampire Survivors_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1693172023979684, "dur":97169, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693172024082416, "dur":4876, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1693172024110750, "dur": 1242, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693172024110311, "dur": 1721, "ph": "X", "name": "Write chrome-trace events", "args": {} },
